@@ -1,6 +1,5 @@
 C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\appsettings.json
-C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\Dados\dados.json
 C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\PokedexAPI.exe
 C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\PokedexAPI.deps.json
 C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\PokedexAPI.runtimeconfig.json
@@ -28,3 +27,4 @@ C:\Developer\Csharp\PokedexAPI\obj\Debug\net5.0\PokedexAPI.dll
 C:\Developer\Csharp\PokedexAPI\obj\Debug\net5.0\ref\PokedexAPI.dll
 C:\Developer\Csharp\PokedexAPI\obj\Debug\net5.0\PokedexAPI.pdb
 C:\Developer\Csharp\PokedexAPI\obj\Debug\net5.0\PokedexAPI.genruntimeconfig.cache
+C:\Developer\Csharp\PokedexAPI\bin\Debug\net5.0\Json\PokemonJSON.json

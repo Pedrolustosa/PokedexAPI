@@ -1,0 +1,38 @@
+[
+    {
+      "Id": 1,
+      "Name": "Bulbasaur",
+      "Description": "Bulbasaur pode ser visto cochilando sob luz solar intensa. Há uma semente em suas costas. Ao absorver os raios do sol, sua semente cresce progressivamente.",
+      "Species": "Seed",
+      "Type": [ "Planta", "Venenoso" ] ,
+      "Height": 0.7,
+      "Weight": 6.9
+    },
+    {
+      "Id": 2,
+      "Name": "Ivysaur",
+      "Description": "Há um broto nas costas desse Pokémon. Para suportar seu Weight, as pernas e o tronco de Ivysaur ficam grossos e fortes. Se começar a passar mais tempo deitado sob a luz do sol, é um sinal de que o broto florescerá em uma flor grande em breve.",
+      "Species": "Seed",
+      "Type": [ "Planta", "Venenoso" ] ,
+      "Height": 1,
+      "Weight": 13
+    },
+    {
+      "Id": 3,
+      "Name": "Venusaur",
+      "Description": "Há uma flor grande nas costas de Venusaur. Diz-se que a flor adquire cores vivas se receber muita nutrição e luz solar. O aroma da flor acalma as emoções das pessoas.",
+      "Species": "Seed",
+      "Type": [ "Planta", "Venenoso" ] ,
+      "Height": 2,
+      "Weight": 100
+    },
+    {
+      "Id": 4,
+      "Name": "Charmander",
+      "Description": "A chama que queima na ponta da cauda é uma indicação de suas emoções. A chama tremula quando Charmander está se divertindo. Se o Pokémon se enfurecer, a chama queima ferozmente.",
+      "Species": "Lizard",
+      "Type": [ "Fogo" ],
+      "Height": 0.6,
+      "Weight": 8.5
+    }
+  ]

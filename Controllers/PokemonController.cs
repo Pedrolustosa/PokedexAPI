@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PokedexAPI.Classes;
+using PokedexAPI.Models;
 
 namespace PokedexAPI.Controllers
 {
@@ -19,24 +19,24 @@ namespace PokedexAPI.Controllers
             _logger = logger;
         }
 
-        // GET: api/<PokemonController>
+        // GET: api/<PokemonController> All Pokemons in JSN File
         [HttpGet]
         public List<Pokemon> Get()
         {
-            StreamReader r = new StreamReader(@"Dados\dados.json");
+            StreamReader r = new StreamReader(@"Json\PokemonJSON.json");
             string json = r.ReadToEnd();
             List<Pokemon> pokemons = JsonSerializer.Deserialize<List<Pokemon>>(json);
             return pokemons;
         }
 
-        // GET api/<PokemonController>/5
+        // GET api/<PokemonController>/5 For Id
         [HttpGet("api/pokemons/{id}")]
         public Pokemon Get(int id)
         {
-            StreamReader r = new StreamReader(@"Dados\dados.json");
+            StreamReader r = new StreamReader(@"Json\PokemonJSON.json");
             string json = r.ReadToEnd();
             List<Pokemon> pokemons = JsonSerializer.Deserialize<List<Pokemon>>(json);
-            var pokemon = pokemons.Where(p => p.Numero == id).SingleOrDefault();
+            var pokemon = pokemons.Where(p => p.Id == id).SingleOrDefault();
             return pokemon;
         }
 
